@@ -1,0 +1,252 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    background: linear-gradient(to right, #7067eb, #ff577d);
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.small-container {
+    width: 80%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.row-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.btn {
+    display: inline-block;
+    background: #2d2d2d;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+.btn:hover{
+    transition-delay: 0.6s;
+    background: linear-gradient(to right , #7067eb , #ff577d  );
+}
+
+/* header section */
+.header {
+    margin-top: 50px;
+    padding-top: 50px;
+    background: white;
+
+}
+
+.logo-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {}
+
+.logo h2 {
+    color: #7067eb;
+}
+
+.logo span {
+    color: #ff577d;
+}
+
+.navbar {}
+
+.navbar ul {}
+
+.navbar ul li {
+    margin-top: 10px;
+    display: inline-block;
+    padding-right: 20px;
+}
+.menu-bar .fa-bars{
+    background: #7067eb;
+    background: linear-gradient(to right,#7067eb 0%, #ff577d 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 20px;
+    font-size: 25px;
+    padding-top: 5px;
+    /* display: none; */
+}
+
+.navbar ul li a {
+
+    font-size: 17px;
+    color: #6a6a6a;
+}
+@media(max-width: 700px){
+    .navbar ul {
+        height: 100vh;
+        position: absolute;
+        top:23% ;
+        right: 0;
+        background: linear-gradient(to right,#ff577d 0%, #7067eb 100% );
+        width: 100%;
+        transition: 0.5s;
+        overflow: hidden;
+
+    }
+
+    .navbar ul li {
+        text-align: right;
+        display: block;
+        padding-right: 50px;
+        margin-bottom: 10px;
+    }
+    .navbar ul li a {
+        color: #ffffff;
+        font-size: 13px;
+    }
+
+    .row {
+        flex-direction: column;
+        text-align: center;
+    }
+    .row-footer {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+}
+
+
+/* banner section */
+.banner {
+    padding-top: 100px;
+}
+
+.col-2 {
+    flex-basis: 48%;
+}
+
+.banner-text {}
+
+.banner-text h1 {
+    background: #7067eb;
+    background: linear-gradient(to right,#7067eb 0%, #ff577d 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 20px;
+
+
+}
+
+.banner-text p {
+    font-size: 16px;
+    color: #6a6a6a;
+
+}
+
+.banner-text a {
+
+}
+
+.banner-img {
+    width: 100%;
+}
+
+.banner-img img {
+    width: 100%;
+}
+/* footer section */
+footer{
+    padding: 100px 0;
+    align-items: none;
+}
+.col-4{
+    flex-basis: 23%;
+    
+
+}
+.about-text{
+
+}
+.about-text h3{
+    font-size: 25px;
+    background: #7067eb;
+    background: linear-gradient(to right , #7067eb 0% ,#ff577d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 10px;
+
+}
+.about-text p{
+    color: #6a6a6a;
+    font-size: 14px;
+
+}
+.follow-us{}
+.follow-us h3{
+    font-size: 25px;
+    background: #7067eb;
+    background: linear-gradient(to right , #7067eb 0% ,#ff577d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 10px;
+}
+.follow-us p{
+    font-size: 14px;
+    color: #6a6a6a;
+    line-height: 30px;
+}
+.link{}
+.link h3{
+    font-size: 25px;
+    background: #7067eb;
+    background: linear-gradient(to right , #7067eb 0% , #ff577d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 10px;
+}
+.link ul{}
+.link ul li{}
+.link ul li a{
+    color: #6a6a6a;
+    line-height: 30px;
+    font-size: 14px;
+}
+.contact{}
+.contact h3{
+    background: #7067eb;
+    background: linear-gradient(to right , #7067eb 0% , #ff577d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 10px;
+}
+.contact p{
+    font-size: 14px;
+    color: #6a6a6a;
+    line-height: 30px;
+
+}
+.low-footer{
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 20px;
+    color: #6a6a6a;
+}
+.low-footer span{
+    color: #ff577d;
+}
