@@ -98,7 +98,7 @@ body {
     .navbar ul {
         height: 100vh;
         position: absolute;
-        top:23% ;
+        top:18% ;
         right: 0;
         background: linear-gradient(to right,#ff577d 0%, #7067eb 100% );
         width: 100%;
@@ -116,6 +116,9 @@ body {
     .navbar ul li a {
         color: #ffffff;
         font-size: 13px;
+    }
+    .menu-bar .fa-bars{
+        display: block;
     }
 
     .row {
