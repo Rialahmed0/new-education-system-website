@@ -115,6 +115,7 @@ body {
         width: 100%;
         transition: 0.5s;
         overflow: hidden;
+        padding-bottom: 10px;
 
     }
 
